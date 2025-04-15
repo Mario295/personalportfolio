@@ -8,6 +8,6 @@ const base = '/personalportfolio/';
 
 export default defineConfig({
 	site,
-	base,
+	base: '/personalportfolio',
 	integrations: [tailwind()],
 });
